@@ -8,7 +8,7 @@ const About = () => {
             <img src={Lap} alt="" className='w-[500px] mx-auto my-4'/>
            
             <div className='flex flex-col justify-center'>
-              <p className='text-[#00df9a] font-bold items-center justify-center '>DATA ANALYTICS DASHBOARD</p>
+              <p className='text-[#00df9a] font-bold items-center justify-center '>BRIEF ACADEMIC PROFILE</p>
               <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>About Me</h1>
               <p>
               It is a long established fact that a reader will be distracted by the readable content.                   
@@ -22,7 +22,9 @@ const About = () => {
                 I've fond balance between Life and Work, I'm a totally happy person, inspiring speaker and firm investor, 
                 but it didn't come easily.You can use my previous experience in order not to fall into the same trap.
               </p>
-              <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
+              <div className='justify-center flex items-center'> <a href="https://drive.google.com/file/d/1ElRshfN2D8o_ktGSJ-VpEoWeVTOIwdhQ/view?usp=sharing">
+              <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>RESUME</button></a>
+              </div>
             </div>
           </div>
         </div>

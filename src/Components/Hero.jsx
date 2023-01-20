@@ -9,10 +9,10 @@ const Hero = () => {
 
 
           <div className=''>
-              <img src={ab} alt="" className=' rounded-full h-fit w-24 mt-20  relative top-0 left-3 mx-20 my-95'/>
+              <img src={ab} alt="" className=' rounded-full md:h-fit h-[60%] w-24 mt-20 p-4 relative top-0 left-3 mx-20 my-95'/>
           </div>
 
-            <p className='text-lime-600 font-bold p-2'>GROWING WITH DATA ANALYTICS</p>
+            <p className='text-lime-600 font-bold p-2'>PORTFOLIO OF A WEB DEVELOPER</p>
             <h1 className='md:text-7xl sm:text-6xl text-1xl font-bold md:py-6'>Hello, My name is
 JOSEPH James Kayode</h1>
 
